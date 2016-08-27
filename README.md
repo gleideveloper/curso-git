@@ -39,4 +39,16 @@ Git é sistema de controle de Versão Distribuído
 
 
 
+#Comandos básicos do Git
+
+Adicionar um arquivo na area Staging:
+
+	$ git add.
+
+Remover um arquivo da area Staging:
+	
+	$ git rm --cached
+
+
+
 #webgrafia: fonte: https://git-scm.com/book/pt-br/v1
