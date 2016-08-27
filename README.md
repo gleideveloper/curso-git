@@ -3,11 +3,11 @@
 Git é Sistema de controle de Versão Distribuído
 
 # 1. Configuração Inicial do Git - Sua Identidade
-# $ git config --global user.name "Gleides Vinente"
-# $ git config --global user.email "gleides.v@example.com"
+$ git config --global user.name "Gleides Vinente"
+$ git config --global user.email "gleidesigner@msn.com"
 
 ## 1.1 Verificando Suas Configurações
-# $ git config --list
+$ git config --list
 
 # 1 Git Essencial - Obtendo um Repositório Git
 
