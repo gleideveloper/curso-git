@@ -31,12 +31,11 @@ Git é sistema de controle de Versão Distribuído
 # 4. Git Essencial - Obtendo um Repositório Git
 
 	$ git init
+	$ git clone git@github.com:user-name-git/nome-repositorio-remoto.git
 
-$ git clone git@github.com:user-name-git/nome-repositorio-remoto.git
+## 3.2 Exemplo:
 
-#3.2 Exemplo:
-
-$ git clone git@github.com:gleidesigner/curso_git.git
+	$ git clone git@github.com:gleidesigner/curso_git.git
 
 
 
