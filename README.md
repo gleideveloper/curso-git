@@ -102,6 +102,6 @@ Criar e alterar um branch no repositório local
 
 	$ git checkout -b NomeDoBranch
 
-mudança do branch teste2
+não quero essas informações
 
 #webgrafia: fonte: https://git-scm.com/book/pt-br/v1
