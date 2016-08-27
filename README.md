@@ -103,7 +103,14 @@ Criar e alterar um branch no repositório local
 	$ git checkout -b NomeDoBranch
 
 Fazer um merge entre os branchs
-- para fazer o merge do teste2 para o master, deve-se está no master
+
+- para fazer o merge do teste2 para o master, deve-se está no branch master
+
 	$ git merge teste2
+
+Deletar o branch no repositório local
+
+	$ git branch -d NomeDoBranch
+
 
 #webgrafia: fonte: https://git-scm.com/book/pt-br/v1
