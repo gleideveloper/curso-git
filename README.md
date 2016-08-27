@@ -49,6 +49,11 @@ Remover um arquivo da area Staging
 	
 	$ git rm --cached
 
+Remover um arquivo do repositório local
+	
+	$ git rm NomeDoArquivo
+
+
 Adicionar um arquivo na area Git Directory
 
 	$ git commit -m "informação sobre o commit"
@@ -80,6 +85,11 @@ Informar apenas o log e informações dos commits do projeto
 Adiciona as mudanças no último commit feito no projeto
 	
 	$ git commit --amend -m "informações"
+
+Descartas as ultimas mudanças feitas no arquivo
+
+	$ git checkout -- NomeDoArquivo
+
 
 
 #webgrafia: fonte: https://git-scm.com/book/pt-br/v1
