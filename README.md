@@ -7,7 +7,7 @@ Git é sistema de controle de Versão Distribuído
 ## 1.2 - Staging Area
 ## 1.3 - Git Directory (repositório)
 
-## flow: Working Directory [git add] >> Staging Area [git commit] >> git directory
+## flow: Working Directory [git add] >> Staging Area [git commit] >> Git Directory
 
 # 2. Configuração Inicial do Git - Sua Identidade
 
@@ -41,13 +41,38 @@ Git é sistema de controle de Versão Distribuído
 
 #Comandos básicos do Git
 
-Adicionar um arquivo na area Staging:
+Adicionar um arquivo na Staging Area
 
 	$ git add.
 
-Remover um arquivo da area Staging:
+Remover um arquivo da area Staging
 	
 	$ git rm --cached
+
+Adicionar um arquivo na area Git Directory
+
+	$ git commit -m "informação sobre o commit"
+
+Mostrar a diferença no arquivo
+	
+	$ git diff
+
+Mostrar a diferença no arquivo na Staging Area
+
+	$ git diff --staged
+
+Mostrar o log de todos os commits do projeto
+
+	$ git log
+
+Mostrar o log de todos os commits com detalhes da mudança do projeto
+
+	$ git log -p
+
+Mostrar o log de n(numero de logs) commits do projeto
+
+	$ git log -p -1
+
 
 
 
