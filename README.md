@@ -73,7 +73,13 @@ Mostrar o log de n(numero de logs) commits do projeto
 
 	$ git log -p -1
 
+Informar apenas o log e informações dos commits do projeto
 
+	$ git log --pretty=oneline 
+
+Adiciona as mudanças no último commit feito no projeto
+	
+	$ git commit --amend -m "informações"
 
 
 #webgrafia: fonte: https://git-scm.com/book/pt-br/v1
