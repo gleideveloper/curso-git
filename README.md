@@ -11,32 +11,33 @@ Git é sistema de controle de Versão Distribuído
 
 # 2. Configuração Inicial do Git - Sua Identidade
 
-$ git config --global user.name "Gleides Vinente"
-$ git config --global user.email "gleidesigner@msn.com"
+	$ git config --global user.name "Gleides Vinente"
+	$ git config --global user.email "gleidesigner@msn.com"
 
 ## 2.1 Verificando Suas Configurações
 
-$ git config --list
+	$ git config --list
 
 # 3. Obtendo Ajuda - Existem três formas:
 
-$ git help <verb>
-$ git <verb> --help
-$ man git-<verb>
+	$ git help <verb>
+	$ git <verb> --help
+	$ man git-<verb>
 
 ## 3.1 Exemplo:
 
-$ git help config
+	$ git help config
 
 # 4. Git Essencial - Obtendo um Repositório Git
 
-$ git init
+	$ git init
 
 $ git clone git@github.com:user-name-git/nome-repositorio-remoto.git
 
 #3.2 Exemplo:
+
 $ git clone git@github.com:gleidesigner/curso_git.git
 
 
 
-webgrafia: fonte: https://git-scm.com/book/pt-br/v1
+#webgrafia: fonte: https://git-scm.com/book/pt-br/v1
