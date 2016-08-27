@@ -90,6 +90,18 @@ Descartas as ultimas mudanças feitas no arquivo
 
 	$ git checkout -- NomeDoArquivo
 
+Criar branch no repositório local
 
+	$ git branch NomeDoBranch
+
+Alterar o branch no repositório local
+
+	$ git checkout NomeDoBranch
+
+Criar e alterar um branch no repositório local
+
+	$ git checkout -b NomeDoBranch
+
+mudança do branch teste2
 
 #webgrafia: fonte: https://git-scm.com/book/pt-br/v1
