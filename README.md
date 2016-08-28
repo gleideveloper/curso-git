@@ -38,7 +38,6 @@ Git é sistema de controle de Versão Distribuído
 	$ git clone git@github.com:gleidesigner/curso_git.git
 
 
-
 #Comandos básicos do Git
 
 Adicionar um arquivo na Staging Area
