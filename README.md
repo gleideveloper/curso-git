@@ -33,7 +33,7 @@ Git é sistema de controle de Versão Distribuído
 	$ git init
 	$ git clone git@github.com:user-name-git/nome-repositorio-remoto.git
 
-## 3.2 Exemplo:
+## 4.1 Exemplo:
 
 	$ git clone git@github.com:gleidesigner/curso_git.git
 
@@ -119,4 +119,4 @@ Pegar as mudanças do repositório remoto
 	$ git pull origin master
 
 
-#webgrafia: fonte: https://git-scm.com/book/pt-br/v1
+webgrafia: fonte: https://git-scm.com/book/pt-br/v1
