@@ -110,5 +110,13 @@ Deletar o branch no repositório local
 
 	$ git branch -d NomeDoBranch
 
+Enviar mudanças do repositório local para o remoto
+
+	$ git push origin master
+
+Pegar as mudanças do repositório remoto
+
+	$ git pull origin master
+
 
 #webgrafia: fonte: https://git-scm.com/book/pt-br/v1
