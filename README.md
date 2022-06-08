@@ -1,4 +1,5 @@
-#Curso Git linhas de comando
+# Resumo de comando GIT e GITHUB
+![Alt text](command-git.jpg?raw=true "Resumo de comando GIT e GITHUB")
 
 Git é sistema de controle de Versão Distribuído
 
