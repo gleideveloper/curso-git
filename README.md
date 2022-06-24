@@ -9,6 +9,20 @@ Git é sistema de controle de Versão Distribuído
 ## 1.3 - Git Directory (repositório)
 
 ## flow: Working Directory [git add] >> Staging Area [git commit] >> Git Directory
+## 1.4 - Quick setup — create a new repository or existing repository
+   ### 1.4.1 -> create a new repository on the command line
+	echo "# rest-api-with-docker-mongdb" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git branch -M master
+	git remote add origin git@github.com:gleideveloper/rest-api-with-docker-mongdb.git
+	git push -u origin master
+
+   ### 1.4.2 -> push an existing repository from the command line
+	git remote add origin git@github.com:gleideveloper/rest-api-with-docker-mongdb.git
+	git branch -M master
+	git push -u origin master
 
 # 2. Configuração Inicial do Git - Sua Identidade
 
