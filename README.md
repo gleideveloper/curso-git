@@ -1,7 +1,16 @@
 # Resumo de comando GIT e GITHUB
+Git é sistema de controle de Versão Distribuído
 ![Alt text](command-git.jpg?raw=true "Resumo de comando GIT e GITHUB")
 
-Git é sistema de controle de Versão Distribuído
+# Config Log local path[ .git/config ]
+https://stackoverflow.com/questions/1057564/pretty-git-branch-graphs
+
+[alias]
+<p>
+lgd = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+
+lgdt = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''%C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+#lg = !"git lg1"
 
 # 1. Local de operações do Git:
 ## 1.1 - Working Directory
